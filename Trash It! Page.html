@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+<title> Trash It! </title>
+</head>
+
+<h2 style="font-family: Lucida Handwriting; font-siz:50; color:#778899; text-align:center; padding: 30px;"
+<p> Welcome to My Page of Trash </p>
+</h2>
+
+<h3 style="font-family: Lucida Handwriting; font-siz:46; color:Blue; text-align:center; padding: 30px;" 
+<p> This may seem a little cynical but let me explain...</p>
+<p> Every day we encounter trash. </p>
+<p> But, if we are experiencing trash that is affecting our well being... </p>
+<p> well, here's the page to trash it!! So, let's go!!</p>
+</h3>
+
+<h1> 
+   <img src="https://cdn.pixabay.com/photo/2014/04/03/10/49/trash-can-311411_960_720.png" alt="" align="right" height= "450px" width="250px" />
+</h1>
+	
+<script>
+function startDragging(evt) {
+    evt.dataTransfer.setData("Color", evt.target.style.background);
+    evt.target.style.opacity = 0.1;
+}
+</script>
+	
+	<br/>
+   <body style="background-color:#E6E6FA;" 
+
+        <div id="heart"> 
+		<img src="https://nzwildatheart.files.wordpress.com/2013/04/red-heart.png" alt="" style="margin: 50px 30px" align="right" height= "200px" width="350px" 
+			ondragend="dragEnded(event)" ondragstart="startDragging(event)" draggable="true">
+		
+		</div>
+		<br/>
+		
+        <div id="money">
+		<img src="http://diysolarpanelsv.com/images/clipart-picture-of-money-6.png" alt="" style="margin: 50px 30px" align="right" height = "200px" width="350px" 
+		ondragend="dragEnded(event)" ondragstart="startDragging(event)" draggable="true">
+		</div>
+		<br/>
+		
+        <div id="clock">
+		<img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/black-inlay-crystal-clear-bubble-icons-business/077221-black-inlay-crystal-clear-bubble-icon-business-clock5-sc44.png" alt="" align="right" height="200" width="350px" style="margin: 50px 20px"
+		ondragend="dragEnded(event)" ondragstart="startDragging(event)" draggable="true" >
+		</div>
+        <p>
+
+    </body>
+</html>
